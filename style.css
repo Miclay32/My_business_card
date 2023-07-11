@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#7E735F;
+    padding: 20px;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #D4F5FF;
+    font-size: 28px;
+}
+
+#menu {
+    display: flex;
+    gap: 20px;
+}
+
+#menu a {
+    text-decoration: #D4F5FF;
+    color: #0366d6;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+#menu a:hover {
+    background-color: #0366d6;
+    color: #fff;
+}
+
+main {
+    display: grid;
+    gap: 30px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #0366d6;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.card {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.card img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.card-content {
+    flex: 1;
+}
+
+.service-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.service-card img {
+    width: 200px;
+}
+div p .maga{
+	color: #7E735F;
+
+}
